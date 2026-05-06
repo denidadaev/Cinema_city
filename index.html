@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema City</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__btns">
+                <button class="btn header__btn">Register</button>
+                <button class="btn header__btn header__btn--tr">Enter</button>
+            </div>
+            <div class="header__search">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="header__right">
+                <div class="burger-menu">
+                    <span></span>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__items"><a href="#" class="active">Home</a></li>
+                        <li class="header__items"><a href="#">Films</a></li>
+                        <li class="header__items"><a href="#">Series</a></li>
+                        <li class="header__items"><a href="#">Actors</a></li>
+                        <li class="header__items"><a href="#">About us</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="header__logo">Cinema Center</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Oppenheimer 2023</h1>
+                    <h2 class="hero__subtitle">Summary of the story</h2>
+                    <p class="hero__descr">Oppenheimer is a film directed by Christopher Nolan. The film is based on the true story of J. Robert Oppenheimer. It is based on the biography by Kai Bird and Martin J. Sherwin. The film is scheduled to be released in theaters in the United States on July 21, 2023. The film is a Universal Pictures first.</p>
+                    <h3 class="hero__genre">Genre</h3>
+                    <p class="hero__descr hero__descr--centre"></p>
+                    <ul class="hero__list">
+                        <li>
+                            <div class="hero__img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="hero__info">
+                                <p></p>
+                            </div>
+                        </li>
+                        <li>  
+                            <div class="hero__img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="hero__info">
+                                <p></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="featured__btn">Watch & Download in All Qualities</button>
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <div class="search__container container">
+                <div class="search__simple">
+                    <h2 class="search__title">Simple Movie & Series Search</h2>
+
+                    <div class="search__box">
+                        <button class="search__btn">Search</button>
+                        <input 
+                        type="text" 
+                        class="search__input" 
+                        placeholder="Enter movie, series or animation name..."
+                        >
+                    </div>
+                </div>
+
+                <div class="search__advanced">
+
+                <div class="search__advanced-header">
+                    <h3>Advanced Search</h3>
+                </div>
+
+                <div class="search__filters">
+
+                    <div class="search__col">
+                        <label>Type</label>
+                        <select>
+                            <option>All</option>
+                        </select>
+
+                        <label>Genre</label>
+                        <select>
+                            <option>All</option>
+                        </select>
+
+                        <label>Country</label>
+                        <select>
+                            <option>All</option>
+                        </select>
+                    </div>
+
+                    <div class="search__col">
+                        <label>Year From</label>
+                        <select><option>Not selected</option></select>
+
+                        <label>Year To</label>
+                        <select><option>Not selected</option></select>
+
+                        <label>IMDB From</label>
+                        <select><option>Not selected</option></select>
+                    </div>
+
+                    <div class="search__col">
+                        <label>IMDB To</label>
+                        <select><option>Not selected</option></select>
+
+                        <label>Quality</label>
+                        <select><option>All</option></select>
+
+                        <label>Age Rating</label>
+                        <select><option>All</option></select>
+                    </div>
+
+                    <div class="search__col">
+                        <label>Actors</label>
+                        <input type="text" placeholder="Brad Pitt">
+
+                        <label>Directors</label>
+                        <input type="text" placeholder="Brad Pitt">
+
+                        <div class="search__toggles">
+                            <label>
+                            <input type="checkbox"> Subtitles
+                            </label>
+                            <label>
+                            <input type="checkbox"> Dubbed
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="search__actions">
+                    <button class="search__apply">
+                    Apply Filters & Search
+                    </button>
+
+                    <select class="search__sort">
+                        <option>Sort by IMDB</option>
+                    </select>
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="recom">
+            <div class="container recom__container">
+                <div class="recom__top">
+                    <h2 class="recom__title">Recommended films</h2>
+
+                    <div class="recom__arrow">
+                        <div><img src="/IMAGES/ooui_next-ltr.svg" alt=""></div>
+                        <div><img src="/IMAGES/arrow right.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="recom__middle">
+                    <ul class="recom__list recom-card">
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/tick tick boom.jpg" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>7.5</p></div>
+                                    <div class="recom-card__time"><p>1h 55min</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Tick Tick Boom</h3>
+                            </div>
+                        </li>
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/Mission impossible.jpg" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>7.6</p></div>
+                                    <div class="recom-card__time"><p>3h</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Mission Impossible</h3>
+                            </div>
+                        </li>
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/Killers of the flower moon.webp" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>8</p></div>
+                                    <div class="recom-card__time"><p>3h 26min</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Killers of the flower moon</h3>
+                            </div>
+                        </li>
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/Avtar  2.jpg" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>7.7</p></div>
+                                    <div class="recom-card__time"><p>3h 12min</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Avatar 2</h3>
+                            </div>
+                        </li>
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/OPPENHEIMER.jpg" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>8.3</p></div>
+                                    <div class="recom-card__time"><p>3h 5min</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Oppenheimer</h3>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            <!-- BOTTOM -->
+                <div class="recom__bottom">
+                    <button class="btn recom__btn">See More</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="featured">
+            <div class="featured__container container">
+
+                <div class="featured__card">
+                <h3 class="featured__title">The Batman 2022</h3>
+
+                <p class="featured__subtitle">Plot Summary</p>
+
+                <p class="featured__text">
+                    In his second year of fighting crime, Batman investigates a series of mysterious murders that lead him to uncover corruption in Gotham City...
+                </p>
+
+                <div class="featured__meta">
+                    <span class="featured__rating"><span>7.8</span>/10</span>
+                    <span class="featured__time">2h 56m</span>
+                </div>
+
+                <button class="featured__btn">
+                    Watch & Download in All Qualities
+                </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="recom">
+            <div class="container recom__container">
+                <div class="recom__top">
+                    <h2 class="recom__title">Recommendations for you</h2>
+
+                    <div class="recom__arrow">
+                        <div><img src="/IMAGES/ooui_next-ltr.svg" alt=""></div>
+                        <div><img src="/IMAGES/arrow right.svg" alt=""></div>
+                    </div>
+                </div>
+                <div class="recom__middle">
+                    <ul class="recom__list recom-card">
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/reacher.jpg" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>8.1</p></div>
+                                    <div class="recom-card__time"><p>45 min</p></div>
+                                </div>
+                                <h3 class="recom-card__title">Reacher</h3>
+                            </div>
+                        </li>
+
+                        <li class="recom-card__items">
+                            <div class="recom-card__img">
+                                <img src="/IMAGES/house of the dragon.webp" alt="">
+                            </div>
+                            <div class="recom-card__content">
+                                <div class="recom-card__rating">
+                                    <div class="recom-card__imdb"><p>7.6</p></div>
+                                    <div class="recom-card__time"><p>3h</p></div>
+                                </div>
+                                <h3 class="recom-card__title">House of the dragon</h3>
+                            </div>
+                        </li>
+
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/rings of power.jpg" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>7</p></div>
+                                <div class="recom-card__time"><p>1h</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Rings of power</h3>
+                        </div>
+                    </li>
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/last of us.jfif" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>8.8</p></div>
+                                <div class="recom-card__time"><p>50 min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Last of us</h3>
+                        </div>
+                    </li>
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/planet earth lll.jpg" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>9.3</p></div>
+                                <div class="recom-card__time"><p>50 min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Planet earth ||| </h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- BOTTOM -->
+                <div class="recom__bottom">
+                    <button class="btn recom__btn">See More</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="recom">
+            <div class="container recom__container">
+                <div class="recom__top">
+            <h2 class="recom__title">Series for you</h2>
+
+            <div class="recom__arrow">
+                    <div><img src="/IMAGES/ooui_next-ltr.svg" alt=""></div>
+                    <div><img src="/IMAGES/arrow right.svg" alt=""></div>
+            </div>
+            </div>
+            <div class="recom__middle">
+                <ul class="recom__list recom-card">
+
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/sonic 2.webp" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>6.5</p></div>
+                                <div class="recom-card__time"><p>2h 3min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Sonic 2</h3>
+                        </div>
+                    </li>
+
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/Scavenger reign.jpg" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb">
+                                    <p>8.8</p>
+                                </div>
+                                <div class="recom-card__time">
+                                    <p>24 min</p>
+                                </div>
+                            </div>
+                            <h3 class="recom-card__title">Scavengers regin</h3>
+                        </div>
+                    </li>
+
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/attack on titan.jpg" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>9.1</p></div>
+                                <div class="recom-card__time"><p>24 min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Attack on titan</h3>
+                        </div>
+                    </li>
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/across the spiderverse.jpg" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>8.7</p></div>
+                                <div class="recom-card__time"><p>2h 20 min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">Across the spiderverse</h3>
+                        </div>
+                    </li>
+                    <li class="recom-card__items">
+                        <div class="recom-card__img">
+                            <img src="/IMAGES/What_If....webp" alt="">
+                        </div>
+                        <div class="recom-card__content">
+                            <div class="recom-card__rating">
+                                <div class="recom-card__imdb"><p>7.4</p></div>
+                                <div class="recom-card__time"><p>32 min</p></div>
+                            </div>
+                            <h3 class="recom-card__title">What if...? </h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- BOTTOM -->
+                <div class="recom__bottom">
+                    <button class="btn recom__btn">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="recom">
+            <div class="container recom__container">
+                <div class="recom__top">
+            <h2 class="recom__title">Action</h2>
+
+            <div class="recom__arrow">
+                    <div><img src="/IMAGES/ooui_next-ltr.svg" alt=""></div>
+                    <div><img src="/IMAGES/arrow right.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="recom__middle">
+            <ul class="recom__list recom-card">
+
+                <li class="recom-card__items">
+                    <div class="recom-card__img">
+                        <img src="/IMAGES/john wick 4.webp" alt="">
+                    </div>
+                    <div class="recom-card__content">
+                        <div class="recom-card__rating">
+                            <div class="recom-card__imdb"><p>7.7</p></div>
+                            <div class="recom-card__time"><p>2h 49min</p></div>
+                        </div>
+                        <h3 class="recom-card__title">John Wick 4</h3>
+                    </div>
+                </li>
+
+                <li class="recom-card__items">
+                    <div class="recom-card__img">
+                        <img src="/IMAGES/hte witcher.jpg" alt="">
+                    </div>
+                    <div class="recom-card__content">
+                        <div class="recom-card__rating">
+                            <div class="recom-card__imdb">
+                                <p>8</p>
+                            </div>
+                            <div class="recom-card__time">
+                                <p>60 min</p>
+                            </div>
+                        </div>
+                        <h3 class="recom-card__title">The Witcher</h3>
+                    </div>
+                </li>
+
+                <li class="recom-card__items">
+                    <div class="recom-card__img">
+                        <img src="/IMAGES/avengers endgame.jfif" alt="">
+                    </div>
+                    <div class="recom-card__content">
+                        <div class="recom-card__rating">
+                            <div class="recom-card__imdb"><p>8.4</p></div>
+                            <div class="recom-card__time"><p>3h 2 min</p></div>
+                        </div>
+                        <h3 class="recom-card__title">Avengers Endgame</h3>
+                    </div>
+                </li>
+                <li class="recom-card__items">
+                    <div class="recom-card__img">
+                        <img src="/IMAGES/Spider_Man_No_Way_Home.jpg" alt="">
+                    </div>
+                    <div class="recom-card__content">
+                        <div class="recom-card__rating">
+                            <div class="recom-card__imdb"><p>8.2</p></div>
+                            <div class="recom-card__time"><p>2h 28 min</p></div>
+                        </div>
+                        <h3 class="recom-card__title">Across the spiderverse</h3>
+                    </div>
+                </li>
+                <li class="recom-card__items">
+                    <div class="recom-card__img">
+                        <img src="/IMAGES/the boys.avif" alt="">
+                    </div>
+                    <div class="recom-card__content">
+                        <div class="recom-card__rating">
+                            <div class="recom-card__imdb"><p>8.7</p></div>
+                            <div class="recom-card__time"><p>60 min</p></div>
+                        </div>
+                        <h3 class="recom-card__title">The Boys</h3> </h3>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- BOTTOM -->
+                <div class="recom__bottom">
+                    <button class="btn recom__btn">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured">
+            <div class="featured__container2 container">
+
+                <div class="featured__card">
+                <h3 class="featured__title">Peaky blinders</h3>
+
+                <p class="featured__subtitle">Plot Summary</p>
+
+                <p class="featured__text">
+                    dkvhwefhwefhfuvhwrvbhqebhwubheubhubhruhwefuhrbhwuiwhgbuirh
+                    uihhweuhbwuibhwuibh
+                    bubuiwrhbugb
+                </p>
+
+                <div class="featured__meta">
+                    <span class="featured__rating"><span>8.8</span>/10</span>
+                    <span class="featured__time">60m</span>
+                </div>
+
+                <button class="featured__btn">
+                    Watch & Download in All Qualities
+                </button>
+                </div>
+
+            </div>
+    </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2>Cinema City</h2>
+                <p>
+                This website started its activity in 2017 and provides professional
+                downloading of movies and TV series without censorship.
+                You can watch online or download your favorite content.
+                </p>
+                <p>Support Phone: 0912463715</p>
+            </div>
+
+            <div class="footer-columns">
+                <div>
+                    <h4>Download</h4>
+                    <ul>
+                        <li>Movies</li>
+                        <li>Series</li>
+                        <li>Animation</li>
+                        <li>Search</li>
+                        <li>Categories</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Cinema City</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Collaboration</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Rules</h4>
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Collaboration</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Support</h4>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Help & Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
